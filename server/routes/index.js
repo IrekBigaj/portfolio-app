@@ -16,4 +16,8 @@ router.get("/services", (req, res) => {
 	res.render(pages_url + "/services.ejs");
 });
 
+router.get("/contact", (req, res) => {
+	res.render(pages_url + "/contact.ejs");
+});
+
 module.exports = router;

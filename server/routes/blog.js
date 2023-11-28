@@ -7,9 +7,9 @@ router.get("/", (req, res) => {
 	res.render(pages_url + "/blog.ejs");
 });
 
-// router.get("/details", (req, res) => {
-// 	// res.send("Hello world");
-// 	res.render(pages_url + "/portfolio_details.ejs");
-// });
+router.get("/details", (req, res) => {
+	// res.send("Hello world");
+	res.render(pages_url + "/blog_details.ejs");
+});
 
 module.exports = router;
